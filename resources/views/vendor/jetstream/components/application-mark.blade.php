@@ -1,0 +1,1 @@
+<img src="{{asset('img/logos/Logo_UDH.png')}}" class="h-12 w-40 object-cover" alt="">
