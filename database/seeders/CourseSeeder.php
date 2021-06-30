@@ -24,10 +24,10 @@ class CourseSeeder extends Seeder
         $courses = Course::factory(100)->create();
 
         foreach ($courses as $course) {
-            /* Image::factory(1)->create([
+            Image::factory(1)->create([
                 'imageable_id' => $course->id,
                 'imageable_type' => Course::class
-            ]); */
+            ]);
 
             Requirement::factory(4)->create([
                 'course_id' => $course->id
